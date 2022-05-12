@@ -1,0 +1,55 @@
+{
+    "name": "soiposervices/trenitalia",
+    "description": "A simple package to get Trenitalia(one of italian's train company) trains informations ",
+    "keywords": [
+        "soiposervices",
+        "trenitalia"
+    ],
+    "homepage": "https://github.com/soiposervices/trenitalia",
+    "license": "GPL-2.0-or-later",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Luigi Laezza",
+            "email": "info@soiposervices.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soiposervices\\Trenitalia\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Soiposervices\\Trenitalia\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soiposervices\\Trenitalia\\TrenitaliaServiceProvider"
+            ],
+            "aliases": {
+                "Trenitalia": "Soiposervices\\Trenitalia\\TrenitaliaFacade"
+            }
+        }
+    }
+}
