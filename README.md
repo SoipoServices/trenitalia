@@ -51,4 +51,4 @@ The GNU GPLv3. Please see [License File](LICENSE.md) for more information.
 
 Thanks to SimoDax for the api documentation.
 
-![GitHub SimoDax](https://github.com/SimoDax/Trenitalia-API/wiki/API-Trenitalia---lefrecce.it)
+[GitHub SimoDax](https://github.com/SimoDax/Trenitalia-API/wiki/API-Trenitalia---lefrecce.it)
