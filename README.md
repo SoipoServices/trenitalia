@@ -1,11 +1,10 @@
-# Very short description of the package
+# Trenitalia Laravel package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/soiposervices/trenitalia.svg?style=flat-square)](https://packagist.org/packages/soiposervices/trenitalia)
 [![Total Downloads](https://img.shields.io/packagist/dt/soiposervices/trenitalia.svg?style=flat-square)](https://packagist.org/packages/soiposervices/trenitalia)
 ![GitHub Actions](https://github.com/soiposervices/trenitalia/actions/workflows/main.yml/badge.svg)
 
-This is a very simple package that uses Trenitalia public api to gather informations about theirs trains schedule.
-
+This is a very simple laravel package that uses Trenitalia public api to gather informations about theirs trains schedule.
 
 ## Installation
 
