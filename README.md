@@ -6,6 +6,7 @@
 
 This is a very simple package that uses Trenitalia public api to gather informations about theirs trains schedule.
 
+
 ## Installation
 
 You can install the package via composer:
@@ -17,7 +18,6 @@ composer require soiposervices/trenitalia
 ## Usage
 
 ```php
-// Usage description here
 ```
 
 ### Testing
@@ -45,3 +45,10 @@ If you discover any security related issues, please email info@soiposervices.com
 ## License
 
 The GNU GPLv3. Please see [License File](LICENSE.md) for more information.
+
+
+## Other
+
+Thanks to SimoDax for the api documentation.
+
+![GitHub SimoDax](https://github.com/SimoDax/Trenitalia-API/wiki/API-Trenitalia---lefrecce.it)
